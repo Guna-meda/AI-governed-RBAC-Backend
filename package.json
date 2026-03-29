@@ -1,0 +1,25 @@
+{
+  "name": "rbac-governance-backend",
+  "version": "1.0.0",
+  "description": "AI Governance & Role-Based Access Intelligence Platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed/seed.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@pinecone-database/pinecone": "^7.1.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "openai": "^6.33.0",
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
