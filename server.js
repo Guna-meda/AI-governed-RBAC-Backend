@@ -7,7 +7,7 @@ const { initDatabase } = require("./config/database");
 
 const authRoutes  = require("./routes/authRoutes");
 const queryRoutes = require("./routes/queryRoutes");
-const auditRoutes = require("./routes/auditRoutes"); // ← NEW
+const auditRoutes = require("./routes/auditroutes"); // Linux path must match actual filename
 
 
 const app  = express();
